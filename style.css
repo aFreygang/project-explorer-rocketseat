@@ -1,0 +1,34 @@
+:root {
+  --background-color: #EDF2FF;
+  --primary-color: #4263EB;
+  --secondary-color: #364FC7;
+  --footer-color: #00082F99;
+  --title-color: #00082F;
+}
+
+body {
+  background: var(--background-color);
+  text-align: center;
+}
+
+img {
+  height: 5.786rem;
+  width: 5.786rem;
+  border-radius: 100%;
+}
+
+
+
+li {
+  list-style: none;
+  padding: 1rem 5rem;
+  margin-bottom: 1rem;
+  width: 18.75rem;
+  height: 3.312rem;
+  background: var(--primary-color);
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
