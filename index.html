@@ -1,35 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>RocketLinks</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="script.js"></script>
   </head>
   <body>
-    <img src="/assets/images/profile-picture.jpg" alt="homem em uma selfie" />
-    <h1>André Freygang</h1>
-    <p>@andrefreygang_</p>
+    <div class="container">
+      <img
+        id="avatar"
+        src="/assets/images/profile-picture.jpg"
+        alt="homem em uma selfie"
+      />
+      <h1 id="titulo">André Freygang</h1>
+      <p id="usuario">@andrefreygang_</p>
 
-    <ul>
-      <li>
-        <a href="https://www.linkedin.com/in/andrefreygang/" target="_blank">
-          👔 Linkedin
-        </a>
-      </li>
-      <li>
-        <a href="https://instagram.com/andrefreygang_" target="_blank">
-          📷 Instagram
-        </a>
-      </li>
-      <li>
-        <a href="https://discord.gg/b2BMuHAQRC" target="_blank">🎙️ Discord </a>
-      </li>
-      <li>
-        <a href="https://github.com/aFreygang" target="_blank">🐱 Github </a>
-      </li>
-    </ul>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/andrefreygang/" target="_blank">
+            👔 Linkedin
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com/andrefreygang_" target="_blank">
+            📷 Instagram
+          </a>
+        </li>
+        <li>
+          <a href="https://discord.gg/b2BMuHAQRC" target="_blank">
+            🎙️ Discord
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/aFreygang" target="_blank">🐱 Github </a>
+        </li>
+      </ul>
 
-    <footer>Feito com 💖 pela RocketSeat e André Freygang.</footer>
+      <footer>
+        <p>Feito com 💖 pela RocketSeat e André Freygang.</p>
+        <ul class="lista-rodape">
+          <li class="alterar-cores" id="light-theme-blue"></li>
+          <li class="alterar-cores" id="light-theme-pink"></li>
+          <li class="alterar-cores" id="dark-theme-blue"></li>
+          <li class="alterar-cores" id="dark-theme-pink"></li>
+        </ul>
+      </footer>
+    </div>
   </body>
 </html>
