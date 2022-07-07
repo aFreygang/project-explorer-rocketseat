@@ -109,6 +109,7 @@ footer .lista-rodape li {
   margin: 0px 0.5rem;
   height: 1rem;
   width: 1rem;
+  border-radius: 50%;
 
   transition: padding 0.4s;
 }
